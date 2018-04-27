@@ -1,0 +1,25 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Contact
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <ion-list-header>Follow us on Twitter</ion-list-header>
+    <ion-item>
+      <ion-icon name="ionic" item-start></ion-icon>
+      @ionicframework
+    </ion-item>  
+  </ion-list>
+  <div>
+      <form  (ngSubmit)= "logout(user)" padding>
+      <button class = "login-button" ion-button icon-start type="submit" >
+          <ion-icon name="log-out"></ion-icon>
+          <span>LOGOUT</span>
+      </button>
+    </form>
+</div>
+</ion-content>
